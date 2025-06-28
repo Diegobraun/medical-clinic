@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: medical-clinic
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/medical-clinic
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
